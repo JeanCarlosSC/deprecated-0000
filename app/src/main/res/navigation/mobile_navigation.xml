@@ -7,19 +7,19 @@
 
     <fragment
         android:id="@+id/nav_calculate"
-        android:name="com.jeank.soldarx.ui.home.HomeFragment"
+        android:name="com.jeank.soldarx.ui.calculator.CalculatorFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_calculator" />
 
     <fragment
         android:id="@+id/nav_entradas"
-        android:name="com.jeank.soldarx.ui.gallery.GalleryFragment"
+        android:name="com.jeank.soldarx.ui.inflows.InflowsFragment"
         android:label="@string/menu_gallery"
         tools:layout="@layout/fragment_inflows" />
 
     <fragment
         android:id="@+id/nav_salidas"
-        android:name="com.jeank.soldarx.ui.slideshow.SlideshowFragment"
+        android:name="com.jeank.soldarx.ui.outflows.OutflowsFragment"
         android:label="@string/menu_slideshow"
         tools:layout="@layout/fragment_outflows" />
 </navigation>
