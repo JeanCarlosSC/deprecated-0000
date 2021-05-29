@@ -30,10 +30,6 @@ class CalculatorFragment : Fragment() {
         _binding = FragmentCalculatorBinding.inflate(inflater, container, false)
         val root: View = binding.root
 
-        val textView: TextView = binding.textHome
-        calculatorViewModel.text.observe(viewLifecycleOwner, Observer {
-            textView.text = it
-        })
         return root
     }
 
